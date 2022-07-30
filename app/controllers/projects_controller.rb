@@ -1,5 +1,5 @@
 class ProjectsController < ApplicationController
-  http_basic_authenticate_with name: "desafiovamoscontodo", password: "XAHTJEAS23123%23", only: :dashboard
+  http_basic_authenticate_with name: "ely_porfia", password: "JardinJapones2022", only: :dashboard
   
   def new 
   end
